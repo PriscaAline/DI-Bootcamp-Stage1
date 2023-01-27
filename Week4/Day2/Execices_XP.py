@@ -32,9 +32,18 @@ print("\n\n**********************************************************\n\n")
 
 La difference est que les floates sont utilées pour saisie des element a valeur flottantes
 par contre les entiers sont utilisés pour des saisie des valeurs entières
+"""
+"""
+ma_Liste = []
+for valeur in range(1,6):
+    if valeur==1:
+        ma_Liste.append(valeur+0.5)
+    elif valeur!=1:
+        ma_Liste.append(valeur)
+        ma_Liste.append(valeur+0.5)
+print(ma_Liste)
 
-ma_Liste = [1.5,2,2.5,3,3.5,4,4.5,5]
-print(ma_Liste)"""
+"""
 
 print("\n\n**********************************************************\n\n")
 
